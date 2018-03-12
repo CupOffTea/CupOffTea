@@ -1,8 +1,9 @@
-h1 {color:grey;
-background-color:blue;
-margin-left:30px;
-font-size:54pt}
+body {background-color: #e6e6fa
+}
+h1 {color:#000080;
+font-size:105pt;
+font-family: sans-serif}
 
-h2 {color:grey;
-margin-left:10px;
-font-size:40pt}
+h2 {color:#000080;
+margin-left:25px;
+font-size:65pt}
