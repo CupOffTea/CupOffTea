@@ -5,7 +5,8 @@ margin-bottom: 60}
 
 h1 {font-size:90pt;
 font-family:sans-serif;
-color: black}
+color: black;
+background-image: url(documenti/GitHub/CupOffTea/Sfondo titolo.png)}
 
 h2 {color: white;
 font-size:45pt;
@@ -29,7 +30,8 @@ color: white;
 padding-left: 30%}
 
 article {background-color: rgb(0, 190, 0);
-color: white;}
+color: white;
+padding-right: 30%}
 
 footer {background-color: rgb(143, 0, 179);
 color: white;
