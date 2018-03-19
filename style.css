@@ -3,8 +3,8 @@ font-family: monospace;
 font-size: 13pt;
 margin-bottom: 60;}
 
-body link {color: rgb(204, 0, 153);}
-body vlink {color: rgb(0, 190, 0);}
+a:link {color: rgb(204, 0, 153);}
+a:visited {color: rgb(0, 190, 0);}
 
 header {background-image: url("Sfondo titolo.png");
 background-size: 50% 50%;
