@@ -9,7 +9,7 @@ body vlink { color: rgb(0, 190, 0)}
 h1 {font-size:90pt;
 font-family:sans-serif;
 color: black;
-background-image: url(documenti/GitHub/CupOffTea/Sfondo titolo.png)}
+background-image: url("Sfondo titolo.png")}
 
 h2 {color: white;
 font-size:45pt;
