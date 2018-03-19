@@ -9,7 +9,9 @@ a:visited {color: rgb(0, 190, 0);}
 header {background-image: url("Sfondo titolo.png");
 background-size: 50% 50%;
 background-repeat: no-repeat;
-background-position: center;}
+background-position: center;
+margin-top: 20px;
+margin-bottom: 20px}
 
 h2 {color: white;
 font-size:45pt;
@@ -21,7 +23,8 @@ margin-top: 100px;}
 #foto_orizzontale {margin-left: 0px;
 margin-right: 0px;}
 
-section {font-family: sans-serif;}
+section {font-family: sans-serif;
+  margin-top: 10px}
 
 main, article, footer {padding-right: 15px;
 padding-left: 10px;
