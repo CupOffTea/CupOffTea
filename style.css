@@ -3,6 +3,9 @@ font-family: monospace;
 font-size: 13pt;
 margin-bottom: 60}
 
+body link {color: rgb(204, 0, 153)}
+body vlink { color: rgb(0, 190, 0)}
+
 h1 {font-size:90pt;
 font-family:sans-serif;
 color: black;
