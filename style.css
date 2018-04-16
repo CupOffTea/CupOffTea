@@ -1,5 +1,5 @@
 body {background-color: white;
-font-family: monospace;
+font-family: Palatino;
 font-size: 13pt;
 margin-bottom: 60;}
 
@@ -15,7 +15,7 @@ margin-bottom: 20px}
 
 h2 {color: white;
 font-size:45pt;
-font-family:sans-serif;
+font-family: Hauracherell NC;
 color: black;
 margin-bottom: 5px;
 margin-top: 100px;}
@@ -28,7 +28,7 @@ padding-bottom: 5%}
 #foto_orizzontale {margin-left: 0px;
 margin-right: 0px;}
 
-section {font-family: sans-serif;
+section {font-family: Hauracherell NC;
   margin-top: 10px}
 
 main, article, footer {padding-right: 15px;
@@ -47,3 +47,5 @@ padding-right: 30%;}
 footer {background-color: rgb(143, 0, 179);
 color: white;
 padding-left: 30%;}
+
+.menu {justify-content: space-around;;}
