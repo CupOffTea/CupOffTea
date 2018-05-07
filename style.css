@@ -1,4 +1,4 @@
-@import url(https://fonts.googleapis.com/css?family=Boogaloo);
+@import url(https://fonts.googleapis.com/css?family=Mouse+Memoirs);
 
 body {background-color: white;
   font-family: Palatino;
@@ -18,7 +18,7 @@ header {background-image: url("Sfondo titolo.png");
 
 h2 {color: white;
   font-size:47pt;
-  font-family: 'Boogaloo', cursive;
+  font-family: 'Mouse Memoirs', sans-serif;
   color: black;
   margin-bottom: 5px;
   margin-top: 100px;}
@@ -32,7 +32,7 @@ h2 {color: white;
 
 #Curriculum_Vitae {margin-top: 2em;}
 
-section {font-family: 'Boogaloo', cursive;
+section {font-family: 'Mouse Memoirs', sans-serif;
   margin-top: 10px}
 
 main, article, footer {padding-right: 15px;
@@ -59,8 +59,8 @@ footer {background-color: rgb(143, 0, 179);
   align-items: center;
   justify-content: space-around;
   background-color: rgb(143, 0, 179);
-  padding-top: 32vh;
-  padding-bottom: 32vh;}
+  padding-top: 11em;
+  padding-bottom: 11em;}
 
 #frecciasx {background-image: url("Frecciasx.png");
   height: 15%;
