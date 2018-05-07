@@ -1,3 +1,5 @@
+@import url(https://fonts.googleapis.com/css?family=Boogaloo);
+
 body {background-color: white;
   font-family: Palatino;
   font-size: 13pt;
@@ -15,8 +17,8 @@ header {background-image: url("Sfondo titolo.png");
   margin-bottom: 20px}
 
 h2 {color: white;
-  font-size:45pt;
-  font-family: Hauracherell NC;
+  font-size:47pt;
+  font-family: 'Boogaloo', cursive;
   color: black;
   margin-bottom: 5px;
   margin-top: 100px;}
@@ -30,7 +32,7 @@ h2 {color: white;
 
 #Curriculum_Vitae {margin-top: 2em;}
 
-section {font-family: Hauracherell NC;
+section {font-family: 'Boogaloo', cursive;
   margin-top: 10px}
 
 main, article, footer {padding-right: 15px;
@@ -57,8 +59,8 @@ footer {background-color: rgb(143, 0, 179);
   align-items: center;
   justify-content: space-around;
   background-color: rgb(143, 0, 179);
-  padding-top: 200px;
-  padding-bottom: 200px;}
+  padding-top: 32vh;
+  padding-bottom: 32vh;}
 
 #frecciasx {background-image: url("Frecciasx.png");
   height: 15%;
@@ -73,7 +75,7 @@ footer {background-color: rgb(143, 0, 179);
   width: 8%;
   background-size: contain;
   background-repeat: no-repeat;
-margin-left: 5em;}
+  margin-left: 5em;}
 
 #slideshow {height: 25em;
   width: 50%;
