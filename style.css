@@ -28,7 +28,7 @@ h2 {color: white;
 #foto_orizzontale {margin-left: 0px;
   margin-right: 0px;}
 
-#Curriculum_Vitae {margin-top: 9em;}
+#Curriculum_Vitae {margin-top: 2em;}
 
 section {font-family: Hauracherell NC;
   margin-top: 10px}
@@ -50,10 +50,30 @@ footer {background-color: rgb(143, 0, 179);
   color: white;
   padding-left: 30%;}
 
-.menu {justify-content: space-evenly;
-  display: run-in;
-  margin-left: 6.5%;
-  margin-right: 6.5%;}
+.menu {display: flex;
+  justify-content: space-around;}
+
+.vetrina {display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: rgb(143, 0, 179);
+  padding-top: 200px;
+  padding-bottom: 200px;}
+
+#frecciasx {background-image: url("Frecciasx.png");
+  height: 15%;
+  width: 8%;
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin-right: 5em;}
+
+#frecciadx {background-image: url("Frecciadx.png");
+  align: left;
+  height: 15%;
+  width: 8%;
+  background-size: contain;
+  background-repeat: no-repeat;
+margin-left: 5em;}
 
 #slideshow {height: 25em;
   width: 50%;
