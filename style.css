@@ -67,7 +67,8 @@ footer {background-color: rgb(143, 0, 179);
   width: 8%;
   background-size: contain;
   background-repeat: no-repeat;
-  margin-right: 5em;}
+  margin-right: 5em;
+  position: absolute;}
 
 #frecciadx {background-image: url("Frecciadx.png");
   align: left;
@@ -75,7 +76,8 @@ footer {background-color: rgb(143, 0, 179);
   width: 8%;
   background-size: contain;
   background-repeat: no-repeat;
-  margin-left: 5em;}
+  margin-left: 5em;
+  position: absolute;}
 
 #slideshow {height: 25em;
   width: 50%;
