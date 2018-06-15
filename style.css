@@ -7,7 +7,7 @@ body {background-color: white;
 
 a:link {color: rgb(204, 0, 153);
   text-decoration: none;}
-a:visited {color: rgb(0, 190, 0);}
+a:visited {color: black}
 
 header {background-image: url("Sfondo titolo.png");
   background-size: 50%;
@@ -67,8 +67,7 @@ footer {background-color: rgb(143, 0, 179);
   width: 8%;
   background-size: contain;
   background-repeat: no-repeat;
-  margin-right: 5em;
-  position: absolute;}
+  margin-right: 5em;}
 
 #frecciadx {background-image: url("Frecciadx.png");
   align: left;
@@ -76,8 +75,7 @@ footer {background-color: rgb(143, 0, 179);
   width: 8%;
   background-size: contain;
   background-repeat: no-repeat;
-  margin-left: 5em;
-  position: absolute;}
+  margin-left: 5em;}
 
 #slideshow {height: 25em;
   width: 50%;

@@ -1,0 +1,114 @@
+<head>
+  <title>Spinner</title>
+  <style>
+  @keyframes spin7 {
+    0% {opacity: 0}
+    30% {opacity: 100%}
+  }
+
+  @keyframes spin48 {
+    20% {opacity: 0}
+    50% {opacity: 100%}
+  }
+
+  @keyframes spin159 {
+    40% {opacity: 0}
+    70% {opacity: 100%}
+  }
+
+  @keyframes spin26 {
+    60% {opacity: 0}
+    90% {opacity: 100%}
+  }
+
+  @keyframes spin3 {
+    80% {opacity: 0}
+    100% {opacity: 100%}
+  }
+
+  .spinner {
+    background-color: rgb(204, 0, 153);
+    height: 2em;
+    width: 2em;
+    transform: translate(-50% -50%);
+    position: absolute;
+  }
+
+  #blocco {
+    height: 8em;
+    width: 8em;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  #spinner1 {
+    top: 15%;
+    left: 15%;
+    animation: spin159 2s infinite;
+  }
+
+  #spinner2 {
+    top: 15%;
+    left: 50%;
+    animation: spin26 2s infinite;
+  }
+
+  #spinner3 {
+    top: 15%;
+    left: 85%;
+    animation: spin3 2s infinite;
+  }
+
+  #spinner4 {
+    top: 50%;
+    left: 15%;
+    animation: spin48 2s infinite;
+  }
+
+  #spinner5 {
+    top: 50%;
+    left: 50%;
+    animation: spin159 2s infinite;
+  }
+
+  #spinner6 {
+    top: 50%;
+    left: 85%;
+    animation: spin26 2s infinite;
+  }
+
+  #spinner7 {
+    top: 85%;
+    left: 15%;
+    animation: spin7 2s infinite;
+  }
+
+  #spinner8 {
+    top: 85%;
+    left: 50%;
+    animation: spin48 2s infinite;
+  }
+
+  #spinner9 {
+    top: 85%;
+    left: 85%;
+    animation: spin159 2s infinite;
+  }
+  </style>
+</head>
+
+<body>
+  <div id="blocco">
+    <div class="spinner" id="spinner1"> </div>
+    <div class="spinner" id="spinner2"> </div>
+    <div class="spinner" id="spinner3"> </div>
+    <div class="spinner" id="spinner4"> </div>
+    <div class="spinner" id="spinner5"> </div>
+    <div class="spinner" id="spinner6"> </div>
+    <div class="spinner" id="spinner7"> </div>
+    <div class="spinner" id="spinner8"> </div>
+    <div class="spinner" id="spinner9"> </div>
+  </div>
+</body>

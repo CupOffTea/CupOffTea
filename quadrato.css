@@ -1,0 +1,30 @@
+#quadrato {
+  height: 30px;
+  width: 30px;
+  background-color: red;
+  position: absolute;
+  }
+
+#quadrato.topleft {
+  transition: 1s all;
+  top: 30vh;
+  left: 30vw;
+  }
+
+#quadrato.topright {
+  transition: 1s all;
+  top: 30vh;
+  left: 60vw;
+  }
+
+#quadrato.bottomleft {
+  transition: 1s all;
+  top: 60vh;
+  left: 30vw;
+  }
+
+#quadrato.bottomright {
+  transition: 1s all;
+  top: 60vh;
+  left: 60vw;
+  }
