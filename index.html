@@ -1,69 +1,128 @@
-<html>
-
 <head>
-  <title>CupOffTea</title>
-  <link rel="icon" href="CupOffTea_icona.ico">
-  <link rel="stylesheet" href="style.css">
-  <script src="jquery.js"> </script>
+  <title>Spinner</title>
+    <meta http-equiv="refresh" content="3; url=pagina.html">
+  <style>
+
+  @import url(https://fonts.googleapis.com/css?family=Mouse+Memoirs);
+
+  @keyframes spin7 {
+    0% {opacity: 0}
+    30% {opacity: 100%}
+  }
+
+  @keyframes spin48 {
+    20% {opacity: 0}
+    50% {opacity: 100%}
+  }
+
+  @keyframes spin159 {
+    40% {opacity: 0}
+    70% {opacity: 100%}
+  }
+
+  @keyframes spin26 {
+    60% {opacity: 0}
+    90% {opacity: 100%}
+  }
+
+  @keyframes spin3 {
+    80% {opacity: 0}
+    100% {opacity: 100%}
+  }
+
+  .spinner {
+    background-color: rgb(204, 0, 153);
+    height: 2em;
+    width: 2em;
+    transform: translate(-50% -50%);
+    position: absolute;
+  }
+
+  #blocco {
+    height: 8em;
+    width: 8em;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  #spinner1 {
+    top: 15%;
+    left: 15%;
+    animation: spin159 2s infinite;
+  }
+
+  #spinner2 {
+    top: 15%;
+    left: 50%;
+    animation: spin26 2s infinite;
+  }
+
+  #spinner3 {
+    top: 15%;
+    left: 85%;
+    animation: spin3 2s infinite;
+  }
+
+  #spinner4 {
+    top: 50%;
+    left: 15%;
+    animation: spin48 2s infinite;
+  }
+
+  #spinner5 {
+    top: 50%;
+    left: 50%;
+    animation: spin159 2s infinite;
+  }
+
+  #spinner6 {
+    top: 50%;
+    left: 85%;
+    animation: spin26 2s infinite;
+  }
+
+  #spinner7 {
+    top: 85%;
+    left: 15%;
+    animation: spin7 2s infinite;
+  }
+
+  #spinner8 {
+    top: 85%;
+    left: 50%;
+    animation: spin48 2s infinite;
+  }
+
+  #spinner9 {
+    top: 85%;
+    left: 85%;
+    animation: spin159 2s infinite;
+  }
+
+  #Load {
+    font-family: 'Mouse Memoirs', sans-serif;
+    color: black;
+    font-size: 47pt;
+    padding-top: 25vh;
+  }
+
+  </style>
 </head>
 
 <body>
-  <header align="center"><img src="Titolo CupOffTea.png" id="Titolo_CupOffTea"></header>
+  <div id="blocco">
+    <div class="spinner" id="spinner1"> </div>
+    <div class="spinner" id="spinner2"> </div>
+    <div class="spinner" id="spinner3"> </div>
+    <div class="spinner" id="spinner4"> </div>
+    <div class="spinner" id="spinner5"> </div>
+    <div class="spinner" id="spinner6"> </div>
+    <div class="spinner" id="spinner7"> </div>
+    <div class="spinner" id="spinner8"> </div>
+    <div class="spinner" id="spinner9"> </div>
+  </div>
 
-<section>
-<nav class="menu"> <a href="#About me">ABOUT ME</a>
-  <a href="#Drawings">DRAWINGS</a>
-  <a href="esercizi.html">ESERCIZI</a>
-  <a href="#Curriculum_Vitae">CURRICULUM VITAE</a>
-  <a href="portfolio.html">PORTFOLIO</a>
-  <a href="#Contacts">CONTACTS</a> </nav>
-<img src="Cover sito.png" align="center" width="100%" weight="100%" id="foto_orizzontale">
-</section>
-
-<h2 id="About me">About me</h2>
-<main>
-<p>Ciao, mi chiamo Tea Firmo (nome d'arte o nickname: CupOffTea). Ho da poco
-iniziato ad avvicinarmi al mondo della programmazione informatica e questo è il
-mio primo tentativo di creare un sito. So che di primo acchito non è il massimo
-anzi, proprio per niente, ma sono certa che pian piano, acquisendo sempre nuove
-informazioni riuscirò a migliorarlo e a renderlo un minimo presentabile.</p>
-
-<p>I miei interessi sono il graphic design, la falconeria (anche se purtroppo
-non ho la possibilità di praticarla quanto vorrei) e mi contraddistingue una
-passione per le stelle, non dal punto di vista astronomico,
-ma come forma, sia essa decorazione, gioiello o altro.</p>
-</main>
-
-<h2 id="Drawings" align="right">Drawings</h2>
-<div class="vetrina">
-<div id="frecciasx"> </div>
-<div id="slideshow" class="foto1"> </div>
-<div id="frecciadx"> </div>
-</div>
-
-<h2 id="Curriculum_Vitae">Curriculum Vitae</h2>
-<article>
-<p>La mia carriera scolastica è iniziata all'età di tre anni e prosegue fino a
-tutt'oggi:
-<ul>
-  <li>3 anni di scuola dell'infanzia N. Piovanelli</li>
-  <li>5 anni di scuola primaria A. Moro</li>
-  <li>3 anni di scuola secondaria di primo grado A. Venturelli</li>
-  <li>5 anni di liceo scientifico A. Calini</li>
-  <li>e da settembre 2017 ho iniziato a frequentare la facoltà di Design della
-    Comunicazione al Politecnico di Milano</li>
-</ul></p>
-</article>
-
-<h2 id="Contacts" align="right">Contacts</h2>
-<footer align="right">
-  <p>Email: <a href="mailto:tea.firmo@icloud.com">tea.firmo@icloud.com</a></p>
-  <p>Facebook: <a href="https://www.facebook.com/tea.firmo?ref=br_rs">Tea Firmo</a></p>
-  <p>Instagram: <a href="https://www.instagram.com/cupofftea/">@cupofftea</a></p>
-</footer>
-
-<script src="slideshow.js"> </script>
-
+  <h1 id="Load" align="center">Wait a second</h1>
 </body>
-</link>
-</html>

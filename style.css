@@ -8,6 +8,8 @@ body {background-color: white;
 a:link {color: rgb(204, 0, 153);
   text-decoration: none;}
 a:visited {color: black}
+a:hover {font-size: 15pt;
+  transition: 1s ease}
 
 header {background-image: url("Sfondo titolo.png");
   background-size: 50%;
@@ -62,20 +64,17 @@ footer {background-color: rgb(143, 0, 179);
   padding-top: 11em;
   padding-bottom: 11em;}
 
-#frecciasx {background-image: url("Frecciasx.png");
-  height: 15%;
-  width: 8%;
-  background-size: contain;
-  background-repeat: no-repeat;
-  margin-right: 5em;}
+#frecciasx {font-size: 55pt;
+  align-items: center;
+  padding-left: 0px;
+  font-family: monospace;
+  }
 
-#frecciadx {background-image: url("Frecciadx.png");
-  align: left;
-  height: 15%;
-  width: 8%;
-  background-size: contain;
-  background-repeat: no-repeat;
-  margin-left: 5em;}
+#frecciadx {font-size: 55pt;
+  align-items: center;
+  padding-left: 50px;
+  font-family: monospace;
+  }
 
 #slideshow {height: 25em;
   width: 50%;
